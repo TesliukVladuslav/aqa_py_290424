@@ -78,10 +78,10 @@ if __name__ == "__main__":
     status = input("Enter the status of the new pet (available, pending, sold): ")
     add_new_pet(name, status)
 
-    # Знайти тварину за ідентифікатором
+    # Знайти тварину
     pet_id = int(input("Enter the ID of the pet to find: "))
     get_pet_by_id(pet_id)
 
-    # Видалити тварину за ідентифікатором
+    # Видалити тварину
     pet_id = int(input("Enter the ID of the pet to delete: "))
     delete_pet_by_id(pet_id)
