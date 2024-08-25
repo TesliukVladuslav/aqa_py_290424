@@ -29,3 +29,4 @@ verify_in_frame('frame1', 'input1', 'Frame1_Secret')
 verify_in_frame('frame2', 'input2', 'Frame2_Secret')
 
 driver.quit()
+
